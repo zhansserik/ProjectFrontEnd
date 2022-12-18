@@ -10,13 +10,18 @@
 </head>
 
 <body>
-    <div class="intro">
-        <iframe class="intro-video" width="560" height="315" src="https://www.youtube.com/embed/D6lofvhtoMI" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
-    </div>
+    <script>
+        function serial(){document.getElementById("video").style.display = "flex";}
+    </script>
 
+    <div id="intro" class="intro">
+        <input type="button" value="Serial" onclick="serial()">
+        <div class="video-serial" id="video">
+            <iframe class="intro-video" width="560" height="315" src="https://www.youtube.com/embed/D6lofvhtoMI" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></div>
+            </iframe>
+    </div>
 
     <div class="events-and-calendar">
         <div class="events">

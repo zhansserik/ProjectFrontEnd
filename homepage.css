@@ -6,14 +6,15 @@ body{
 	width: 100%;
 	height: 580px;
 	background-image: url(background.jpg);
-
+}
+.video-serial{
+	display: none;
 }
 .intro-video{
-	width: 60%;
-	height: 500px;
+	width: 100%;
 	position: relative;
-	margin-left: 20%;
-	margin-top: 2.5%;
+	margin-left: 0;
+	margin-top: 0;
 }
 #slider {
 	/*положение слайдера*/
